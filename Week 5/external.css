@@ -1,0 +1,36 @@
+*{
+    font-size: 50px;
+}
+h1{
+    background-color: rgb(85, 171, 247);
+    color: brown;
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+}
+.p1{
+    background-color: bisque;
+    color: blueviolet;
+    font-style: italic;
+}
+.p2{
+    background-color: lightgray;
+    color: lightcoral;
+    font-size: 30px;
+    font-style: oblique;
+}
+.p3{
+    background-color:aquamarine;
+    color: peru;
+    font-style: italic;
+}
+.p3:hover{
+    background-color: red;
+    color: black;
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+img[alt]{
+    color: blue;
+}
