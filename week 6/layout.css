@@ -1,0 +1,92 @@
+
+        h1{
+            text-transform: uppercase;
+            color: beige;
+            background-color: lightcoral;
+            font-size: 50px;
+            font-family: cursive;
+            text-align: center;
+        }
+        .parent{
+            width: 100%;
+        }
+        img{
+            width: 500px; 
+            height: auto;
+        }
+        .son{
+            width: 50%;
+            float: left;
+        }
+        .daughter{
+            width: 50%;
+            float: right;
+        }
+        /*mobile devices*/
+        @media (min-width:320px) and (max-width:480px){
+            .parent{
+                display: block;
+            }
+            h1{
+                color: black;
+                width: 100%;
+                background-color: lightslategrey;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+            }
+            .daughter img{
+                width:100%;
+                height: auto;
+            }
+        }
+        /*tablet devices*/
+         @media (min-width:481px) and (max-width:768px){
+            .parent{
+                display: block;
+            }
+            h1{
+                color: grey;
+                width: 100%;
+                background-color: burlywood;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+            }
+            .daughter img{
+                width:100%;
+                height: auto;
+            }
+         }
+        /*laptop devices*/
+          @media (min-width:769px) and (max-width:1024px){
+            .parent{
+                display: block;
+            }
+            h1{
+                color: brown;
+                width: 100%;
+                background-color: cornflowerblue;
+                text-align: center;
+            }
+            .daughter{
+                width: 100%;
+            }
+            .son{
+                width: 100%;
+                font-size: 30px;
+            }
+            .daughter img{
+                width:100%;
+                height: auto;
+            }
+        }
+

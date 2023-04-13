@@ -1,0 +1,27 @@
+.grid{
+    width: 100%;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.box1{
+    background-color: lightgreen;
+}
+.box2{
+    background-color: lemonchiffon;
+}
+.box3{
+    background-color: cornflowerblue;
+}
+.box4{
+    background-color: lavender;
+}
+.box5{
+    background-color: turquoise;
+}
+.box6{
+    background-color: lightcoral;
+}
