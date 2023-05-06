@@ -6,8 +6,7 @@
     width: 60%;
     height: 100vh;
     float: left;
-    background-color: #023020
-    ;
+    background-color: rgb(12,59,46);
     
 }
 #heading {
@@ -31,7 +30,9 @@ p{
     margin-left: 2%;
     margin-top: 5%;
     line-height: 30px;
+    
 }
+
 #btn {
     margin-top: 10%;
 }
@@ -42,7 +43,7 @@ button {
     padding-right: 25px;
     font-size: 15px;
     font-weight: bold;
-    color: #023020    ;
+    color: rgb(12,59,46)   ;
     background-color: rgb(255,186,0);
     border: none;
     border-radius: 15px;
@@ -63,7 +64,7 @@ img {
         width: 100%;
         height: auto;
         float: left;
-        background-color: #023020;
+        background-color: rgb(12,59,46);
     }
     #heading {
         margin-top: 100px;
@@ -89,7 +90,7 @@ img {
         padding-right: 20px;
         font-size: 15px;
         font-weight: bold;
-        color: #023020    ;
+        color:rgb(12,59,46)   ;
         background-color: yellowgreen;
         border: none;
         border-radius: 15px;
@@ -110,7 +111,7 @@ img {
         width: 100%;
         height: auto;
         float: left;
-        background-color: #023020;
+        background-color: rgb(12,59,46);
     }
     #heading {
         margin-top: 100px;
@@ -136,7 +137,7 @@ img {
         padding-right: 20px;
         font-size: 15px;
         font-weight: bold;
-        color: #023020    ;
+        color: rgb(12,59,46)    ;
         background-color: yellowgreen;
         border: none;
         border-radius: 15px;

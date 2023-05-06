@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(109,151,115);
+}
+.heading{
+    width: 100%;
+    background-color: rgb(109,151,115);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+h1{
+    width:80%;
+    color:aliceblue;
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+}
+p{
+    color: aliceblue;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 1%;
+    margin-bottom: 60%;
+    line-height: 39px;
+    float: right;
+    
+}
+.subhead{
+    padding-top: 20%;
+    position: relative;
+    left: 25%;
+  
+}
+img{
+    width: 800px;;
+    height: 500px;;
+    
+}
