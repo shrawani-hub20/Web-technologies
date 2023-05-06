@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255,186,0);
+}
+h1{
+    font-size: medium;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(15,100px);
+    grid-gap: 80px;
+    color: #fff;
+}
+.box{
+    background-color: rgb(208, 178, 140);
+    padding-bottom: 40px;
+    position: relative;
+    top: 70px;
+}
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(person1.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-image: url(person2.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    background-image: url(person3.jfif);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.container .Michale{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+}
+.container .Lebron{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    text-align: center;
+}
+.container .Kobe{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    text-align: center;
+}
+.container ul li{
+    list-style-type: none;
+}
